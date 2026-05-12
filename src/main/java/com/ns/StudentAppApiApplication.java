@@ -21,7 +21,7 @@ public class StudentAppApiApplication {
 
 	private void dataSetup(StudentRepository studentRepository) {
 		System.out.println("Adding student");
-		Student student = new Student("Linh","Udemy");
+		Student student = new Student("Linh v0.2","Udemy-0.2");
 		studentRepository.save(student);
 	}
 }
